@@ -4,7 +4,7 @@ import { addBooking, getBookings, getBookingsByUser } from "@/lib/db";
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const email = searchParams.get("email");
-  const bookings = email ? getBookingsByUser(email) : getBookings();
+  const bookings = email ? await getBookingsByUser(email) : await getBookings();
   return NextResponse.json({ bookings });
 }
 
@@ -27,7 +27,7 @@ export async function POST(request) {
   }
 
   try {
-    const booking = addBooking(body);
+    const booking = await addBooking(body);
     return NextResponse.json({ booking }, { status: 201 });
   } catch (err) {
     return NextResponse.json({ error: err.message }, { status: 400 });

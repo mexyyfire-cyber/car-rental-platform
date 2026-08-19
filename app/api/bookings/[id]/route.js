@@ -7,7 +7,7 @@ export async function PATCH(request, { params }) {
   if (!body.status) {
     return NextResponse.json({ error: "status is required" }, { status: 400 });
   }
-  const booking = updateBookingStatus(id, body.status);
+  const booking = await updateBookingStatus(id, body.status);
   if (!booking) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }

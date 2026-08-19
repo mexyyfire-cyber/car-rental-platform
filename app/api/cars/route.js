@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { addCar, getCars } from "@/lib/db";
 
 export async function GET() {
-  const cars = getCars();
+  const cars = await getCars();
   return NextResponse.json({ cars });
 }
 
@@ -18,7 +18,7 @@ export async function POST(request) {
     );
   }
 
-  const car = addCar({
+  const car = await addCar({
     name: body.name,
     brand: body.brand,
     category: body.category,
