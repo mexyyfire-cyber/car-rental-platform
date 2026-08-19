@@ -1,0 +1,289 @@
+{
+  "cars": [
+    {
+      "id": "c1",
+      "name": "Civic RS Turbo",
+      "brand": "Honda",
+      "category": "Sedan",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "pricePerDay": 65,
+      "location": "Islamabad",
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&q=80",
+      "available": true,
+      "description": "A sharp, fuel-efficient sedan built for city commutes and highway runs alike.",
+      "features": [
+        "Cruise Control",
+        "Bluetooth",
+        "Rear Camera",
+        "Alloy Wheels"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Fortuner Legender",
+      "brand": "Toyota",
+      "category": "SUV",
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Diesel",
+      "pricePerDay": 120,
+      "location": "Lahore",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "available": true,
+      "description": "Full-size SUV with commanding road presence, ideal for family trips and rough terrain.",
+      "features": [
+        "4x4",
+        "Sunroof",
+        "Leather Seats",
+        "Apple CarPlay"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Model 3 Long Range",
+      "brand": "Tesla",
+      "category": "Electric",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Electric",
+      "pricePerDay": 150,
+      "location": "Karachi",
+      "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80",
+      "available": true,
+      "description": "Zero-emission performance sedan with autopilot and a 500km+ range.",
+      "features": [
+        "Autopilot",
+        "Fast Charging",
+        "Premium Audio",
+        "Glass Roof"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "City Aspire",
+      "brand": "Honda",
+      "category": "Hatchback",
+      "transmission": "Manual",
+      "seats": 5,
+      "fuel": "Petrol",
+      "pricePerDay": 40,
+      "location": "Mardan",
+      "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80",
+      "available": true,
+      "description": "Compact, economical, and easy to park — the everyday city runabout.",
+      "features": [
+        "AC",
+        "Bluetooth",
+        "Power Windows"
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "5 Series 530i",
+      "brand": "BMW",
+      "category": "Luxury",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "pricePerDay": 200,
+      "location": "Lahore",
+      "image": "https://images.unsplash.com/photo-1729966085578-c7b281cf11da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym13JTIwNSUyMHNlcmllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "available": true,
+      "description": "Executive saloon with a driver-focused cockpit and effortless motorway comfort.",
+      "features": [
+        "Massage Seats",
+        "Heads-Up Display",
+        "Adaptive Suspension"
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Sportage AWD",
+      "brand": "Kia",
+      "category": "SUV",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "pricePerDay": 95,
+      "location": "Islamabad",
+      "image": "https://images.unsplash.com/photo-1688893287923-b0b3a691e005?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRhZ2UlMjBhd2R8ZW58MHx8MHx8fDA%3D",
+      "available": false,
+      "description": "A confident crossover with all-wheel drive and a spacious, tech-forward cabin.",
+      "features": [
+        "AWD",
+        "Panoramic Sunroof",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "Corolla Altis",
+      "brand": "Toyota",
+      "category": "Sedan",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "pricePerDay": 55,
+      "location": "Karachi",
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+      "available": true,
+      "description": "The reliable, best-selling sedan — smooth ride and low running costs.",
+      "features": [
+        "AC",
+        "Bluetooth",
+        "Cruise Control"
+      ]
+    },
+    {
+      "id": "c8",
+      "name": "Alto VXR",
+      "brand": "Suzuki",
+      "category": "Hatchback",
+      "transmission": "Manual",
+      "seats": 4,
+      "fuel": "Petrol",
+      "pricePerDay": 25,
+      "location": "Peshawar",
+      "image": "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80",
+      "available": true,
+      "description": "The cheapest way to get around — light, nimble, and easy on fuel.",
+      "features": [
+        "AC",
+        "Power Steering"
+      ]
+    },
+    {
+      "id": "c9",
+      "name": "Range Rover Sport",
+      "brand": "Land Rover",
+      "category": "Luxury",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Diesel",
+      "pricePerDay": 250,
+      "location": "Islamabad",
+      "image": "https://images.unsplash.com/photo-1679506640605-acaa4c7d46ed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmdlJTIwcm92ZXIlMjBzcG9ydHxlbnwwfHwwfHx8MA%3D%3D",
+      "available": true,
+      "description": "Off-road capability wrapped in a first-class cabin — the flagship SUV experience.",
+      "features": [
+        "Air Suspension",
+        "Massage Seats",
+        "360 Camera"
+      ]
+    },
+    {
+      "id": "c10",
+      "name": "Hilux Revo",
+      "brand": "Toyota",
+      "category": "Pickup",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Diesel",
+      "pricePerDay": 110,
+      "location": "Lahore",
+      "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=800&q=80",
+      "available": true,
+      "description": "Rugged double-cab pickup built for cargo, towing, and rough roads.",
+      "features": [
+        "4x4",
+        "Tow Hitch",
+        "Rear Camera"
+      ]
+    },
+    {
+      "id": "c11",
+      "name": "Mustang GT",
+      "brand": "Ford",
+      "category": "Sports",
+      "transmission": "Automatic",
+      "seats": 4,
+      "fuel": "Petrol",
+      "pricePerDay": 180,
+      "location": "Karachi",
+      "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzdGFuZyUyMGd0fGVufDB8fDB8fHww",
+      "available": false,
+      "description": "V8 muscle car — for the days you want the drive to be the destination.",
+      "features": [
+        "Launch Control",
+        "Sport Exhaust",
+        "Premium Audio"
+      ]
+    },
+    {
+      "id": "c12",
+      "name": "Yaris ATIV",
+      "brand": "Toyota",
+      "category": "Sedan",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "pricePerDay": 50,
+      "location": "Mardan",
+      "image": "https://images.unsplash.com/photo-1749058983193-4fc66ce597ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eWFyaXMlMjBhdGl2fGVufDB8fDB8fHww",
+      "available": true,
+      "description": "Compact sedan with a comfortable ride and strong resale value.",
+      "features": [
+        "AC",
+        "Bluetooth",
+        "Keyless Entry"
+      ]
+    },
+    {
+      "id": "c13",
+      "name": "Prado TX",
+      "brand": "Toyota",
+      "category": "SUV",
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Diesel",
+      "pricePerDay": 160,
+      "location": "Islamabad",
+      "image": "https://images.unsplash.com/photo-1650530579355-7ad9d4766043?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZCUyMGNydWlzZXJ8ZW58MHx8MHx8fDA%3D",
+      "available": true,
+      "description": "Go-anywhere family SUV with a bulletproof reputation for reliability.",
+      "features": [
+        "4x4",
+        "Third Row Seating",
+        "Roof Rails"
+      ]
+    },
+    {
+      "id": "c14",
+      "name": "Leaf",
+      "brand": "Nissan",
+      "category": "Electric",
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Electric",
+      "pricePerDay": 90,
+      "location": "Lahore",
+      "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80",
+      "available": true,
+      "description": "Practical, quiet electric hatchback — ideal for low-cost city driving.",
+      "features": [
+        "Fast Charging",
+        "Regenerative Braking",
+        "Bluetooth"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_msylppasl9dm0",
+      "carId": "c11",
+      "carName": "Ford Mustang GT",
+      "carImage": "https://images.unsplash.com/photo-1547744152-14d985cb937f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzdGFuZyUyMGd0fGVufDB8fDB8fHww",
+      "pricePerDay": 180,
+      "userName": "admin",
+      "userEmail": "prowaleed0@gmail.com",
+      "startDate": "2026-08-18",
+      "endDate": "2026-08-19",
+      "totalDays": 1,
+      "totalPrice": 180,
+      "status": "upcoming",
+      "createdAt": "2026-08-18T11:50:36.628Z"
+    }
+  ]
+}
